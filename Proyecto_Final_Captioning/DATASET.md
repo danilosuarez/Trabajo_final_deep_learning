@@ -3,6 +3,14 @@
 ## Dataset usado
 Se utilizo `Flickr8k`.
 
+## Descarga
+El dataset **debe descargarse localmente**. No se incluye en este repositorio.
+
+La idea es que cada usuario:
+1. descargue `Flickr8k`,
+2. copie las imagenes y el archivo de captions en `data/raw/`,
+3. ejecute el pipeline desde los notebooks.
+
 ## Estructura local esperada
 El proyecto fue implementado con esta estructura dentro de `data/raw/`:
 

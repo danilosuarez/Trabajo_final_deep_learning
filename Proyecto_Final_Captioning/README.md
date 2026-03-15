@@ -22,6 +22,11 @@ Arquitectura final entrenada:
 ## Dataset
 Se uso `Flickr8k` con la estructura local descrita en [DATASET.md](./DATASET.md).
 
+Importante:
+- el dataset **no** se incluye en este repositorio,
+- las imagenes y `captions.txt` deben descargarse y ubicarse localmente en `data/raw/`,
+- esto se hizo para mantener el repositorio liviano y evitar versionar archivos pesados.
+
 Resumen del dataset procesado:
 - `8091` imagenes
 - `40455` captions
@@ -114,8 +119,25 @@ Este repositorio no versiona:
 - entornos locales.
 
 Para replicar el proyecto:
-1. ubica `captions.txt` e imagenes en `data/raw/` como se describe en [DATASET.md](./DATASET.md)
-2. crea un entorno compatible con TensorFlow
-3. ejecuta los notebooks en orden
+1. descarga localmente `Flickr8k`
+2. ubica `captions.txt` e imagenes en `data/raw/` como se describe en [DATASET.md](./DATASET.md)
+3. crea un entorno compatible con TensorFlow
+4. ejecuta los notebooks en orden
 
 Para Mac Apple Silicon con `tensorflow-metal`, revisa [requirements-macos-metal.txt](./requirements-macos-metal.txt).
+
+## Opciones de ejecucion
+### Opcion 1: ejecucion local con GPU en Mac Apple Silicon
+El proyecto fue corrido localmente en MacBook Pro con chip `Apple M1 Max`, usando:
+- `tensorflow-macos`
+- `tensorflow-metal`
+
+Si tienes un entorno similar, puedes seguir la configuracion de [requirements-macos-metal.txt](./requirements-macos-metal.txt).
+
+### Opcion 2: ejecucion en Google Colab
+Si no cuentas con aceleracion local o prefieres una configuracion mas simple, el proyecto tambien puede correrse en `Google Colab`.
+
+En ese caso:
+- descarga el dataset localmente o montalo desde Drive,
+- respeta la misma estructura de `data/raw/`,
+- ejecuta los notebooks en el mismo orden.
