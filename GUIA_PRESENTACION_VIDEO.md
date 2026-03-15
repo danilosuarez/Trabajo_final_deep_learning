@@ -181,11 +181,11 @@ El proyecto integra tres componentes del curso:
   - beam_5: BLEU-2 = 0.4495
 
 ## Archivos visuales recomendados para insertar en la presentacion
-- [calibration_validation_curves.png](/Users/danilosuarezvargas/Documents/Maestria%20Universidad%20andes/Deep%20learning/Proyecto_Final_Captioning/outputs/predictions/calibration_validation_curves.png)
-- [calibration_qualitative_examples.png](/Users/danilosuarezvargas/Documents/Maestria%20Universidad%20andes/Deep%20learning/Proyecto_Final_Captioning/outputs/predictions/calibration_qualitative_examples.png)
-- [fine_calibration_validation_curves.png](/Users/danilosuarezvargas/Documents/Maestria%20Universidad%20andes/Deep%20learning/Proyecto_Final_Captioning/outputs/predictions/fine_calibration_validation_curves.png)
-- [fine_calibration_qualitative_examples.png](/Users/danilosuarezvargas/Documents/Maestria%20Universidad%20andes/Deep%20learning/Proyecto_Final_Captioning/outputs/predictions/fine_calibration_qualitative_examples.png)
-- [beam_search_qualitative_examples.png](/Users/danilosuarezvargas/Documents/Maestria%20Universidad%20andes/Deep%20learning/Proyecto_Final_Captioning/outputs/predictions/beam_search_qualitative_examples.png)
+- [calibration_validation_curves.png](/Users/danilosuarezvargas/Documents/Maestria Universidad andes/Deep learning/outputs/predictions/calibration_validation_curves.png)
+- [calibration_qualitative_examples.png](/Users/danilosuarezvargas/Documents/Maestria Universidad andes/Deep learning/outputs/predictions/calibration_qualitative_examples.png)
+- [fine_calibration_validation_curves.png](/Users/danilosuarezvargas/Documents/Maestria Universidad andes/Deep learning/outputs/predictions/fine_calibration_validation_curves.png)
+- [fine_calibration_qualitative_examples.png](/Users/danilosuarezvargas/Documents/Maestria Universidad andes/Deep learning/outputs/predictions/fine_calibration_qualitative_examples.png)
+- [beam_search_qualitative_examples.png](/Users/danilosuarezvargas/Documents/Maestria Universidad andes/Deep learning/outputs/predictions/beam_search_qualitative_examples.png)
 
 ## Reparto sugerido entre dos integrantes
 ### Integrante 1

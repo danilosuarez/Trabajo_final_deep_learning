@@ -71,7 +71,7 @@ Decision recomendada:
 
 ## Estructura del proyecto
 ```text
-Proyecto_Final_Captioning/
+.
 ├── README.md
 ├── DATASET.md
 ├── CHECKLIST_CURSO.md

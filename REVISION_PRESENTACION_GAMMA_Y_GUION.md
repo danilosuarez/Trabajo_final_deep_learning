@@ -183,7 +183,7 @@ Los valores mostrados en el PDF **no coinciden con los resultados reales del not
 **Estado**: bien, pero depende de insertar la grilla real.
 
 **Que debes insertar**:
-- [beam_search_qualitative_examples.png](/Users/danilosuarezvargas/Documents/Maestria%20Universidad%20andes/Deep%20learning/Proyecto_Final_Captioning/outputs/predictions/beam_search_qualitative_examples.png)
+- [beam_search_qualitative_examples.png](/Users/danilosuarezvargas/Documents/Maestria Universidad andes/Deep learning/outputs/predictions/beam_search_qualitative_examples.png)
 
 **Version oral sugerida**:
 > A nivel cualitativo, el modelo identifica bien el contexto general, objetos prominentes y acciones frecuentes. Sin embargo, en escenas ambiguas puede generar descripciones genericas o incluso mencionar elementos que no estan presentes. Esto ocurre porque combina la informacion visual con patrones estadisticos aprendidos de los captions de entrenamiento.

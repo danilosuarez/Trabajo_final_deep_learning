@@ -1,8 +1,70 @@
-# Root repo policy: only version the final project folder
+# Root repo policy: keep the final project at repository root and ignore unrelated course material
 /*
 !/.gitignore
-!/Proyecto_Final_Captioning/
-!/Proyecto_Final_Captioning/**
+!/README.md
+!/DATASET.md
+!/CHECKLIST_CURSO.md
+!/ARQUITECTURA_Y_RUBRICA.md
+!/GUIA_PRESENTACION_VIDEO.md
+!/GUION_VIDEO_3_PERSONAS.md
+!/Generacion-Automatica-de-Descripciones-de-Imagenes (1).pdf
+!/MAPA_CURSO_APLICADO_AL_PROYECTO.md
+!/PROMPT_GAMMA_AI.md
+!/PROMPT_GAMMA_AI_V2.md
+!/REVISION_PRESENTACION_GAMMA_Y_GUION.md
+!/requirements-macos-metal.txt
+!/data/
+!/data/**
+!/models/
+!/models/**
+!/notebooks/
+!/notebooks/**
+!/outputs/
+!/outputs/**
+!/reports/
+!/reports/**
+!/src/
+!/src/**
 
-# macOS noise
+# Local environments
+.conda-metal310/
+.venv/
+.venv-metal310/
+.env/
+
+# macOS / notebook noise
 .DS_Store
+__pycache__/
+.ipynb_checkpoints/
+
+# Raw data: keep folder structure only
+/data/raw/*
+!/data/raw/.gitkeep
+
+# Processed data: keep only lightweight reproducibility artifacts
+/data/processed/*
+!/data/processed/.gitkeep
+!/data/processed/preprocessing_summary.json
+!/data/processed/train_images.txt
+!/data/processed/val_images.txt
+!/data/processed/test_images.txt
+!/data/processed/tokenizer.json
+
+# Model weights and heavy artifacts
+/models/*
+!/models/.gitkeep
+*.h5
+*.keras
+*.ckpt
+*.pt
+*.npy
+*.npz
+*.pkl
+
+# Outputs: keep final tables and figures, ignore temporary binaries
+/outputs/figures/*
+!/outputs/figures/.gitkeep
+/outputs/predictions/*
+!/outputs/predictions/.gitkeep
+!/outputs/predictions/*.csv
+!/outputs/predictions/*.png
