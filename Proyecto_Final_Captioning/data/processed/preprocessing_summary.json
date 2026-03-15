@@ -1,0 +1,12 @@
+{
+  "num_images_disk": 8091,
+  "num_caption_rows": 40455,
+  "num_unique_images": 8091,
+  "train_unique_images": 5663,
+  "val_unique_images": 1213,
+  "test_unique_images": 1215,
+  "vocab_size": 7251,
+  "max_len": 38,
+  "mean_raw_caption_len": 11.78259794833766,
+  "mean_clean_caption_len": 12.812730194042764
+}

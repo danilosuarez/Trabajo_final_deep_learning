@@ -1,0 +1,7 @@
+image,strategy,prediction,reference_1
+1324816249_86600a6759.jpg,beam_3,a dog is running through a field,a brown dog stands in a lush field with the stunning clouds and mountains behind it
+1324816249_86600a6759.jpg,beam_5,a dog is running through a field,a brown dog stands in a lush field with the stunning clouds and mountains behind it
+1324816249_86600a6759.jpg,greedy,a dog is running through a field,a brown dog stands in a lush field with the stunning clouds and mountains behind it
+210625425_fb1ef5d23b.jpg,beam_3,a man is standing in the water,a blue jeep drive into deep muddy water
+210625425_fb1ef5d23b.jpg,beam_5,a man is standing in the water,a blue jeep drive into deep muddy water
+210625425_fb1ef5d23b.jpg,greedy,a man is in a stream of a stream,a blue jeep drive into deep muddy water

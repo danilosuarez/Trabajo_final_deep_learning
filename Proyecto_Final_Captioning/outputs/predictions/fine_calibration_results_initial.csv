@@ -1,0 +1,5 @@
+model_name,recurrent_units,embedding_dim,dropout_rate,learning_rate,best_epoch,best_val_loss,best_val_accuracy,train_loss_at_best_epoch,training_time_min,model_path
+lstm_256_lowdrop,256,256,0.2,0.001,4,3.3624,0.3714,2.8038,12.39,/Users/danilosuarezvargas/Documents/Maestria Universidad andes/Deep learning/Proyecto_Final_Captioning/models/fine_lstm_256_lowdrop.keras
+lstm_256_lowlr,256,256,0.3,0.0005,4,3.3635,0.371,2.9211,11.63,/Users/danilosuarezvargas/Documents/Maestria Universidad andes/Deep learning/Proyecto_Final_Captioning/models/fine_lstm_256_lowlr.keras
+lstm_384_lowlr,384,256,0.3,0.0005,4,3.4355,0.3595,2.9109,12.85,/Users/danilosuarezvargas/Documents/Maestria Universidad andes/Deep learning/Proyecto_Final_Captioning/models/fine_lstm_384_lowlr.keras
+lstm_256_base,256,256,0.3,0.001,5,3.4977,0.365,2.8216,13.31,/Users/danilosuarezvargas/Documents/Maestria Universidad andes/Deep learning/Proyecto_Final_Captioning/models/fine_lstm_256_base.keras

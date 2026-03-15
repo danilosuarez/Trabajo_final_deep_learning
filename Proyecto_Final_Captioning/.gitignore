@@ -1,0 +1,41 @@
+# Local environments
+.conda-metal310/
+.venv/
+.env/
+
+# macOS / notebook noise
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+
+# Raw data: keep folder structure only
+/data/raw/*
+!/data/raw/.gitkeep
+
+# Processed data: keep only lightweight reproducibility artifacts
+/data/processed/*
+!/data/processed/.gitkeep
+!/data/processed/preprocessing_summary.json
+!/data/processed/train_images.txt
+!/data/processed/val_images.txt
+!/data/processed/test_images.txt
+!/data/processed/tokenizer.json
+
+# Model weights and heavy artifacts
+/models/*
+!/models/.gitkeep
+*.h5
+*.keras
+*.ckpt
+*.pt
+*.npy
+*.npz
+*.pkl
+
+# Outputs: keep final tables and figures, ignore temporary binaries
+/outputs/figures/*
+!/outputs/figures/.gitkeep
+/outputs/predictions/*
+!/outputs/predictions/.gitkeep
+!/outputs/predictions/*.csv
+!/outputs/predictions/*.png

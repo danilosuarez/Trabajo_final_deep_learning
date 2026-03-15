@@ -1,0 +1,4 @@
+strategy,BLEU-1,BLEU-2,eval_images,total_inference_sec,sec_per_image
+beam_5,0.6306,0.4495,300,549.8,1.8327
+beam_3,0.6222,0.4354,300,340.48,1.1349
+greedy,0.613,0.4244,300,110.48,0.3683

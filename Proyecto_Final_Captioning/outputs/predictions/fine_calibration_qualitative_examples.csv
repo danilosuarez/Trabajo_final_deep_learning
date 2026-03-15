@@ -1,0 +1,17 @@
+image,model_name,prediction,reference_1
+3317960829_78bbfafbb6.jpg,lstm_256_lowdrop,a little boy is sitting on a playground,children inspecting an iron structure
+3317960829_78bbfafbb6.jpg,lstm_256_lowlr,a young girl in a blue shirt and a blue shirt and a young girl sitting on a park park,children inspecting an iron structure
+3317960829_78bbfafbb6.jpg,lstm_384_lowlr,a young girl in a blue shirt is sitting on a metal bench,children inspecting an iron structure
+3317960829_78bbfafbb6.jpg,lstm_256_base,a girl in a blue shirt is sitting on a playground,children inspecting an iron structure
+3392019836_c7aeebca1c.jpg,lstm_256_lowdrop,a man in a red shirt is standing in front of a bus,a couple gazes in awe at a display at a carnival
+3392019836_c7aeebca1c.jpg,lstm_256_lowlr,a man is sitting on a carnival,a couple gazes in awe at a display at a carnival
+3392019836_c7aeebca1c.jpg,lstm_384_lowlr,a group of people are standing at a table at a table,a couple gazes in awe at a display at a carnival
+3392019836_c7aeebca1c.jpg,lstm_256_base,a man is standing in a restaurant,a couple gazes in awe at a display at a carnival
+1324816249_86600a6759.jpg,lstm_256_lowdrop,a brown dog is running through the grass,a brown dog stands in a lush field with the stunning clouds and mountains behind it
+1324816249_86600a6759.jpg,lstm_256_lowlr,a brown dog is running through the dirt field,a brown dog stands in a lush field with the stunning clouds and mountains behind it
+1324816249_86600a6759.jpg,lstm_384_lowlr,a brown dog is running through a field,a brown dog stands in a lush field with the stunning clouds and mountains behind it
+1324816249_86600a6759.jpg,lstm_256_base,a dog is running through the grass,a brown dog stands in a lush field with the stunning clouds and mountains behind it
+210625425_fb1ef5d23b.jpg,lstm_256_lowdrop,a man is standing on a waterfall,a blue jeep drive into deep muddy water
+210625425_fb1ef5d23b.jpg,lstm_256_lowlr,a man is sitting on a large large large tree,a blue jeep drive into deep muddy water
+210625425_fb1ef5d23b.jpg,lstm_384_lowlr,a person is driving a large large large large large tires,a blue jeep drive into deep muddy water
+210625425_fb1ef5d23b.jpg,lstm_256_base,a man is driving down a river,a blue jeep drive into deep muddy water

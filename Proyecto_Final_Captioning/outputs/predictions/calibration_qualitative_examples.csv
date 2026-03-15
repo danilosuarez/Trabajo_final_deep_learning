@@ -1,0 +1,13 @@
+image,model_name,prediction,reference_1
+3317960829_78bbfafbb6.jpg,lstm_256,a boy is playing on a playground,children inspecting an iron structure
+3317960829_78bbfafbb6.jpg,gru_128,a boy is sitting on a bench,children inspecting an iron structure
+3317960829_78bbfafbb6.jpg,gru_256,a boy in a blue shirt is sitting on a swing,children inspecting an iron structure
+3392019836_c7aeebca1c.jpg,lstm_256,a group of people are gathered at a carnival,a couple gazes in awe at a display at a carnival
+3392019836_c7aeebca1c.jpg,gru_128,a man is sitting on a carnival,a couple gazes in awe at a display at a carnival
+3392019836_c7aeebca1c.jpg,gru_256,a group of people are standing in a carnival,a couple gazes in awe at a display at a carnival
+1324816249_86600a6759.jpg,lstm_256,a dog is running through a field,a brown dog stands in a lush field with the stunning clouds and mountains behind it
+1324816249_86600a6759.jpg,gru_128,a brown dog runs through the grass,a brown dog stands in a lush field with the stunning clouds and mountains behind it
+1324816249_86600a6759.jpg,gru_256,a dog is running through a field,a brown dog stands in a lush field with the stunning clouds and mountains behind it
+210625425_fb1ef5d23b.jpg,lstm_256,a man is in a stream of a stream,a blue jeep drive into deep muddy water
+210625425_fb1ef5d23b.jpg,gru_128,a man is sitting on a rock,a blue jeep drive into deep muddy water
+210625425_fb1ef5d23b.jpg,gru_256,a man is standing in the water,a blue jeep drive into deep muddy water

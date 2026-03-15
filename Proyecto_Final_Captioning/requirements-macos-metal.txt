@@ -1,0 +1,12 @@
+# Entorno usado para este proyecto en Mac Apple Silicon
+# Crear un entorno limpio e instalar estas dependencias.
+
+tensorflow-macos==2.10.0
+tensorflow-metal==0.6.0
+numpy==1.23.2
+pandas==2.3.3
+matplotlib==3.10.8
+nltk==3.9.3
+Pillow==12.1.1
+notebook>=7.0
+ipykernel>=6.0
