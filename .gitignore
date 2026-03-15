@@ -1,0 +1,8 @@
+# Root repo policy: only version the final project folder
+/*
+!/.gitignore
+!/Proyecto_Final_Captioning/
+!/Proyecto_Final_Captioning/**
+
+# macOS noise
+.DS_Store
